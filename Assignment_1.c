@@ -90,7 +90,7 @@ void print_tables(uint32_t n) {
 
 //do the thing
 int main() {
-    FILE *file = fopen("A1_tests.txt", "r");
+    FILE *file = fopen("a1_test_file.txt", "r");
     if (file == NULL) {
         printf("Error: Could not open file\n");
         return 1;
@@ -107,7 +107,7 @@ int main() {
         uint32_t input, base;
 
         if (sscanf(line, "%s %u %u %s", func, &input, &base, expected) != 4) {
-            printf("Skipping invalid test line: %s\n", line);
+            printf("  %s\n", line);
             continue;
         }
 
