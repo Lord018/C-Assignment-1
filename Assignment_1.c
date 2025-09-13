@@ -90,7 +90,7 @@ void print_tables(uint32_t n) {
 
 //do the thing
 int main() {
-    FILE *file = fopen("A1_tests.txt", "r");
+    FILE *file = fopen("a1_test_file.txt", "r");
     if (file == NULL) {
         printf("Error: Could not open file\n");
         return 1;
