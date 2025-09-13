@@ -1,0 +1,42 @@
+# ==========================
+# Compiled object files
+# ==========================
+*.o
+*.obj
+
+# ==========================
+# Executables / binaries
+# ==========================
+*.exe
+main
+*.out
+
+# ==========================
+# Build folders (CLion / CMake)
+# ==========================
+cmake-build-debug/
+cmake-build-release/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# ==========================
+# Logs and temporary files
+# ==========================
+*.log
+*.tmp
+*.bak
+
+# ==========================
+# IDE / editor settings
+# ==========================
+.idea/
+.vscode/
+*.iml
+
+# ==========================
+# System files
+# ==========================
+.DS_Store
+Thumbs.db
